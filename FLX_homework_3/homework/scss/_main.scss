@@ -1,0 +1,197 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $mainBackgroundColor;
+    font-family: $taskFonts;
+}
+
+header {
+    width: 100%;
+    height: 1900px;
+    background-image: $headerBackgroundImage;
+    background-size: cover;
+
+    .logo img {
+        height: 250px;
+    }
+
+    nav a {
+        color: $navItemColor;
+        margin: 200px;
+        text-transform: uppercase;
+        text-decoration: unset;
+        font-size: 1.5em;
+        position: relative;
+        top: -180px;
+        left: 1300px;
+    }
+
+      h1 {
+        color: $topHeaderColor;
+        text-transform: uppercase;
+        font-size: 1.8em;
+        position: relative;
+        top: 650px;
+        left: 920px;
+
+    }
+
+    .btn-top {
+        background-color: $btnBackground;
+        color: #ffffff;
+        padding: 30px 90px;
+        text-decoration: unset;
+        border: unset;
+        text-transform: uppercase;
+        position: relative;
+        top: 700px;
+        left: 1150px;
+    }
+}
+
+main {
+        max-width: 1500px;
+        margin: auto;
+        font-size: $taskFontSize;
+        color: $mainTextColor;
+    
+        .toolbar {
+            padding: 20px;
+            text-align: right;
+            input {
+                padding: 10px 10px 10px 20px;
+                color: $mainTextColor;
+            }
+        }
+    
+        .post-list {
+            h1 {
+                text-align: right;
+                text-transform: uppercase;
+            }
+            article {
+                height: 345px;
+                background-color: $articleBackground;
+                margin-bottom: 20px;
+            }
+            img {
+                margin: 10px;
+            }
+        }
+        .post {
+            position: relative;
+            top: -300px;
+            left: 350px;
+            width: 1100px;
+            line-height: 30px;
+
+            h3 {
+                color: #028796;
+                text-transform: uppercase;
+            }
+        }
+        .post-description {
+                font-size: 14px;
+                color: #ea2626;
+                border-bottom: 1px solid #7c93a0;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+        }
+        .btn {
+            background-color: $btnBackground;
+            color: #ffffff;
+            padding: 30px 110px;
+            border: unset;
+            text-transform: uppercase;
+            position: relative;
+            top: -265px;
+            left: 1150px;
+        }
+}
+
+#about {
+
+    h1 {
+        text-align: right;
+        text-transform: uppercase;
+    }
+    p {
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    img {
+        width: 1500px;
+    }
+}
+
+.contact-form {
+    h1  {
+        text-align: right;
+        text-transform: uppercase;
+    }
+    h4  {
+        text-align: right;
+        text-transform: uppercase;
+    }
+}
+
+ form {
+     color: #00ACC1;
+     text-align: right;
+
+    .fullName {
+        position: relative;
+        top: 108px;
+        right: 800px;
+    }
+     
+    .full-name {
+        width: 700px;
+        height: 70px;
+        border: 1px solid #00ACC1;
+        position: relative;
+        background: $inputBackground;
+     }
+    .email-adress {
+        width: 700px;
+        height: 70px;
+        border: 1px solid #00ACC1;
+        margin-bottom: 40px;
+        position: relative;
+        background: $inputBackground;
+    }
+    .text-area {
+        width: 1500px;
+        height: 200px;
+        border: 1px solid #00ACC1;
+        margin-bottom: 15px;
+        text-align: right;
+        background: $textAreaBackground;
+    }
+    .sub-btn {
+        background-color: $btnBackground;
+        color: #ffffff;
+        padding: 20px 110px;
+        border: unset;
+        text-transform: uppercase;
+        position: relative;
+    }
+ }
+
+footer {
+    margin: 20px;
+}
+  
+
+
+
+
+
+
+
+
+

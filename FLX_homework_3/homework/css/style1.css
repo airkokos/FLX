@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #ffffff;
+  font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+
+header {
+  width: 100%;
+  height: 1900px;
+  background-image: url(../img/header_background_v1.jpg);
+  background-size: cover; }
+  header .logo img {
+    height: 250px; }
+  header nav a {
+    color: #ffffff;
+    margin: 200px;
+    text-transform: uppercase;
+    text-decoration: unset;
+    font-size: 1.5em;
+    position: relative;
+    top: -180px;
+    left: 1300px; }
+  header h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    position: relative;
+    top: 650px;
+    left: 920px; }
+  header .btn-top {
+    background-color: #00ACC1;
+    color: #ffffff;
+    padding: 30px 90px;
+    text-decoration: unset;
+    border: unset;
+    text-transform: uppercase;
+    position: relative;
+    top: 700px;
+    left: 1150px; }
+
+main {
+  max-width: 1500px;
+  margin: auto;
+  font-size: 0.625;
+  color: #000000; }
+  main .toolbar {
+    padding: 20px;
+    text-align: right; }
+    main .toolbar input {
+      padding: 10px 10px 10px 20px;
+      color: #000000; }
+  main .post-list h1 {
+    text-align: right;
+    text-transform: uppercase; }
+  main .post-list article {
+    height: 345px;
+    background-color: #d3cfcf;
+    margin-bottom: 20px; }
+  main .post-list img {
+    margin: 10px; }
+  main .post {
+    position: relative;
+    top: -300px;
+    left: 350px;
+    width: 1100px;
+    line-height: 30px; }
+    main .post h3 {
+      color: #028796;
+      text-transform: uppercase; }
+  main .post-description {
+    font-size: 14px;
+    color: #ea2626;
+    border-bottom: 1px solid #7c93a0;
+    padding-bottom: 10px;
+    margin-bottom: 10px; }
+  main .btn {
+    background-color: #00ACC1;
+    color: #ffffff;
+    padding: 30px 110px;
+    border: unset;
+    text-transform: uppercase;
+    position: relative;
+    top: -265px;
+    left: 1150px; }
+
+#about h1 {
+  text-align: right;
+  text-transform: uppercase; }
+#about p {
+  line-height: 30px;
+  margin-bottom: 20px; }
+#about img {
+  width: 1500px; }
+
+.contact-form h1 {
+  text-align: right;
+  text-transform: uppercase; }
+.contact-form h4 {
+  text-align: right;
+  text-transform: uppercase; }
+
+form {
+  color: #00ACC1;
+  text-align: right; }
+  form .fullName {
+    position: relative;
+    top: 108px;
+    right: 800px; }
+  form .full-name {
+    width: 700px;
+    height: 70px;
+    border: 1px solid #00ACC1;
+    position: relative;
+    background: #ffffff; }
+  form .email-adress {
+    width: 700px;
+    height: 70px;
+    border: 1px solid #00ACC1;
+    margin-bottom: 40px;
+    position: relative;
+    background: #ffffff; }
+  form .text-area {
+    width: 1500px;
+    height: 200px;
+    border: 1px solid #00ACC1;
+    margin-bottom: 15px;
+    text-align: right;
+    background: #ffffff; }
+  form .sub-btn {
+    background-color: #00ACC1;
+    color: #ffffff;
+    padding: 20px 110px;
+    border: unset;
+    text-transform: uppercase;
+    position: relative; }
+
+footer {
+  margin: 20px; }
+
+/*# sourceMappingURL=style1.css.map */
