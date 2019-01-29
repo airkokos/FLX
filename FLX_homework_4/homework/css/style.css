@@ -1,0 +1,221 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+body {
+    min-width: 900px;
+}
+.header{
+    width: 1000px;
+    height: 800px;
+    background-color: #F3F3F3;
+}
+.header h1 {
+    color: #FFFFFF;
+    position: relative;
+    top: -530px;
+    left: 350px;
+    letter-spacing: 3px;
+}
+.header h1 span {
+    font-size: 2em;
+}
+.underHeader  {
+    color: #FFFFFF;
+    font-size: 0.5em;
+    position: relative;
+    top: -530px;
+    left: 445px;
+}
+.leftCorner {
+    color: #FFFFFF;
+    font-size: 0.7em;
+    position: relative;
+    top: -800px;
+    left: 45px;
+}    
+.navHeader a {
+    text-decoration: unset;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 40px;
+    margin: 90px;
+    border: 1px solid #FFFFFF;
+    position: relative;
+    top: -550px;
+    left: 20px;
+}
+.navRightCorner a {
+    text-decoration: unset;
+    color: #FFFFFF;
+    font-size: 0.7em;
+    margin: 15px;
+    position: relative;
+    top: -940px;
+    left: 830px; 
+} 
+.paragLeft {
+    color: #000000;
+    font-size: 0.8em;
+    position: relative;
+    top: -330px;
+    left: 30px;
+}
+.paragRight {
+    color: #FFFFFF;
+    font-size: 0.5em;
+    position: relative;
+    top: -440px;
+    left: 600px;
+}
+.articlesTitle {
+    color: #000000;
+    position: relative;
+    top: -330px;
+    left: 400px;
+}
+.firstImg {
+    width: 1000px;
+    height: 550px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+ .secondImg {
+    width: 500px;
+    height: 170px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+} 
+.likes {
+    color: #FFFFFF;
+    font-size: 0.7em;
+    width: 30px;
+    height: 17px;
+    border: 1px solid #FFFFFF;
+    position: relative;
+    top: -370px;
+    left: -1px;
+}
+.date {
+    color: #FFFFFF;
+    font-size: 0.5em;
+    position: relative;
+    top: -250px;
+    left: 35px;
+}
+.postText p {
+    margin: 30px;
+    font-size: 0.5em;
+    position: relative;
+    top: -440px;
+    left: 530px;
+    
+}
+.sectionBtn {
+    width: 1000px;
+    height: 250px;
+    background-color: #FFFFFF;
+}
+.btnInSection  {
+    display: inline-block;
+    width: 250px;
+    height: 130px;
+    position: relative;
+    top: 40px;
+    left: 70px;
+    text-align: center;
+    margin: 2em;
+    box-shadow: 3px 3px 3px 3px #F3F3F3;
+    font-size: 0.5em;
+}
+.btnInSection p {
+    margin-top: 20px;
+}
+.btn {
+    width: 200px;
+    height: 30px;
+    background:	#097774;
+    color: #FFFFFF;
+    margin: 10px;
+    border: unset;
+    cursor: pointer;
+}
+.sectionSubscribe {
+    width: 1000px;
+    height: 170px;
+    background-color: #F3F3F3;
+}
+.sectionSubscribe p {
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 0.5em;
+    
+}
+.formSubscribe {
+    position: relative;
+    top: 30px;
+    left: 560px;
+}
+.formSubscribeSecond {
+    position: relative;
+    top: -20px;
+    left: 680px;
+}
+.email {
+    background: #F3F3F3;
+    border: 1px solid #000000;
+    width: 120px;
+    height: 20px;
+    padding-left: 5px;
+} 
+.submit {
+    background: #097774;
+    border: unset;
+    color: #FFFFFF;
+    height: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.footer {
+    width: 1000px;
+    height: 300px;
+    background-color: #FFFFFF;
+}
+.footer p {
+    font-size: 0.5em;
+    color: #9E9E9E;
+}
+.footerBlock {
+    display: inline-block;
+    margin: 25px;
+    padding-top: 40px;
+}
+.footerBlock:last-child {
+    margin-left: 170px;
+}
+.footerBlock h3 {
+    font-size: 0.9em;
+}
+.footer hr {
+    border: 1px solid #F3F3F3;
+    width: 96%;
+    position: relative;
+    top: 75px;
+}
+.footerNav a {
+    font-size: 0.6em;
+    color: #000000;
+    text-decoration: unset;
+    margin: 5px;
+    position: relative;
+    top: 80px;
+    left: 810px;
+}
+.titleEpam {
+    position: relative;
+    top: 65px;
+    left: 20px;
+}
+
