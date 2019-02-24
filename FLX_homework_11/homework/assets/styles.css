@@ -1,0 +1,56 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+#root {
+    border: 2px solid black;
+    height: 650px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-weight: normal;
+    margin-top: 5%;
+    position: relative;
+    left: 40%;
+}
+#textForm {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 85%;
+    height: 17px;
+    color: gray;
+    border-color: black;
+}
+#addButton {
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 7px;
+    margin-left: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+hr {
+    width: 95%;
+    border: 2px solid black;
+}
+#list {
+    list-style-type: none;
+    user-select: none;
+}
+li {
+    cursor: pointer;
+    width: 95%;
+    max-width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+img {
+    margin-top: auto;
+    align-self: center;
+    width: 100px;
+}
